@@ -8,7 +8,7 @@
 }
 
 .container{
-    max-width: 1440px;
+    max-width: 1300px;
     margin: auto;
 }
 
@@ -54,7 +54,7 @@ margin-right: 20px;
 font-family: "Poppins", sans-serif;
 padding: 12px 25px;
 border-radius: 7px;
-
+color: rgb(188, 138, 252);
 box-shadow: 10px 7px 9px 0px rgba(0, 0, 0, 0.25);
 background-color: rgba(255, 255, 255, 0.4);
 
@@ -95,20 +95,20 @@ background-color: rgba(255, 255, 255, 0.4);
 padding: 13px 10px;
 margin-top: 20px;
 border-radius: 7px;
+background: rgb(188, 138, 252);
 
-background: rgba(255, 255, 255, 0.4);
 }
 
 .child_c{
+    width: 631px;
     margin-top: 189px;
 }
 
 .card
 {
     margin-top: 90px;
-    margin-left: 119px;
     margin-bottom: 130px;
-
+    width: 530px;
 }
 
 a:hover{
@@ -123,7 +123,6 @@ background-color: #e3e3e3;
 .middle_r{
     position: relative;
     bottom: 100px;
-   
     border-radius: 16px;
 
 box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.15);
@@ -169,7 +168,6 @@ text-align: left;
 
 .Finances{
     font-family: "Poppins", sans-serif;
-
     color: rgb(0, 0, 0);
 font-size: 48px;
 font-weight: 600;
@@ -198,10 +196,283 @@ text-align: left;
     padding-left: 97px;
 }
 
+.menu{
+    display: none;
+}
+
+
+
 .column-2{
    padding-left: 173px;
 
 }
+
+.Accessible_Convenient{
+    color: rgb(0, 0, 0);
+font-size: 20px;
+font-weight: 400;
+line-height: 158%;
+letter-spacing: 0%;
+text-align: left;
+font-family: "Poppins", sans-serif;
+padding-top: 16px;
+display: flex;
+align-items: center;
+gap: 17px;
+
+}
+.Benefits{
+font-family: "Poppins", sans-serif;
+
+    color: rgb(0, 0, 0);
+font-size: 48px;
+font-weight: 600;
+line-height: 130.5%;
+letter-spacing: 0%;
+text-align: left;
+}
+.Design{
+font-family: "Poppins", sans-serif;
+padding-top: 16px;
+
+    color: rgb(0, 0, 0);
+font-size: 20px;
+font-weight: 400;
+line-height: 158%;
+letter-spacing: 0%;
+text-align: justify;
+}
+
+
+
+
+
+
+
+
+@media(max-width:390px)
+{
+
+    .container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+ul{
+    display: none;
+
+}
+
+.menu{
+    display: block;
+}
+ .text_1{
+    font-size: 48px;
+    width: 359px;
+ }
+
+.card{
+    width: 336px;
+}
+.hero-cont{
+    flex-direction: column;
+}
+.text_2{
+    width: 359px;
+}
+.middle_r{
+    flex-direction: column;
+    width: 358px;
+    
+}
+
+.second_r{
+    flex-direction: column;
+}
+.gr_48{
+    width: 356px;
+}
+
+.Finances{
+    font-size: 36px;
+    width: 356px;
+    padding-top: 24px;
+
+}
+
+.Design{
+    padding-top: 24px;
+    width: 356px;
+    font-size: 20px;
+}
+.Start{
+    padding-top: 24px;
+
+}
+
+.text_3{
+    padding-right: 75px;
+}
+
+.third_r{
+    margin-top: 72px;
+    
+    flex-direction: column;
+
+}
+
+.Service{
+    font-size: 36px;
+}
+
+.column-1{
+    width: 355px;
+}
+
+.Access{
+    width: 355px;
+    padding-right: 100px;
+  
+}
+
+.gr-35{
+    padding-top: 30px;
+}
+
+.column-2{
+    padding-right: 60px;
+}
+
+.fourt_r
+{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.More{
+width: 359px;
+font-size: 36px;
+}
+
+
+.google{
+    width: 173px;
+}
+.appst{
+    width: 171px;
+}
+
+.right{
+    width: 240px;
+padding-top: 29px;
+
+}
+
+.gr_53{
+    display: none;
+}
+
+.fifth_r{
+    width: 390px;
+    padding-top: 40px;
+    padding-bottom: 23px;
+    background-color: rgb(255, 255, 255);
+}
+.customers{
+    flex-direction: column;
+    
+}
+.gr_14{
+    display: none;
+}
+
+.gr_12{
+    width: 355px;
+    margin-left: 190px;
+}
+
+.text_4{
+    width: 355px;
+}
+
+.seventh_r{
+    width: 390px;
+    flex-direction: column;
+}
+.pic{
+    width: 105px;
+}
+
+.the_same{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.icons{
+
+    gap: 21px;
+}
+.seventh_r{
+   
+    flex-direction: column;
+}
+
+.Last-column{
+    margin-top: 13px;
+}
+
+.Email{
+    width: 359px;
+}
+
+.last_t{
+    flex-direction: column;
+}
+
+.icons{
+    flex-direction: column;
+
+}
+
+
+
+}
+
+.Email{
+    border: 1px solid white;
+    background-color: white;
+    white-space: nowrap;
+    width: 415px;
+}
+
+#Enter{
+    border: none;
+}
+
+
+
+
+.customers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 81px;
+
+}
+
+.sixth_r{
+    background-color: rgba(28, 105, 255, 0)
+    rgba(255, 255, 255, 0.35);
+}
+.text_4{
+    padding-top: 41px;
+
+}
+
+
 
 .third_r{
     margin-top: 133px;
@@ -209,7 +480,6 @@ text-align: left;
     align-items: center;
     padding-bottom: 265px;
     background-color:  conic-gradient(from 180deg at 50% 50%, rgba(28, 146, 255, 0), rgba(255, 255, 255, 0.35));
-
 }
 
 .Service{
@@ -258,10 +528,8 @@ letter-spacing: 0%;
 }
 
 .fourt_r{
-    display: flex;
     
-padding-top: 107px;
-height: 428px;
+padding-top: 29px;
 }
 
 .background_2{
@@ -275,12 +543,6 @@ height: 428px;
 }
 
 
-.right{
-    position: relative;
-  top: -290px;
-  padding-left: 53px;
- bottom: 1px;
-}
 
 .google{
     padding-top: 42px;
@@ -296,7 +558,6 @@ font-size: 48px;
 font-weight: 600;
 line-height: 130.5%;
 letter-spacing: 0%;
-white-space: nowrap;
 }
 
 .appst
@@ -393,7 +654,6 @@ padding-bottom: 10px
     color: rgb(115, 109, 109);
 font-size: 14.72px;
 font-family: "Poppins", sans-serif;
-
 font-weight: 400;
 line-height: 158.5%;
 letter-spacing: 0%;
@@ -406,13 +666,13 @@ margin-right: 0;
 }
 
 .send{
-    margin-left: 0;
 margin-right: 80px;
 font-size: 22px;
 font-weight: 500;
 line-height: 33px;
 letter-spacing: 0%;
     border-radius: 7px;
+    border: 1px solid blueviolet ;
     font-family: "Poppins", sans-serif;
 background-color: blueviolet;
 box-shadow: 10px 7px 9px 0px rgba(0, 0, 0, 0.25);
