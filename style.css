@@ -261,7 +261,7 @@ text-align: justify;
 ul{
     display: none;
 
-}
+  }
 
 .menu{
     display: block;
@@ -501,7 +501,6 @@ font-weight: 600;
 line-height: 158%;
 letter-spacing: 0%;
 font-family: "Poppins", sans-serif;
-width: 477px;
 
 }
 
@@ -518,6 +517,19 @@ line-height: 158%;
 letter-spacing: 0%;
 }
 
+.column-2{
+    padding-top: 80px;
+}
+
+
+
+
+
+
+
+
+
+
 .gr-35{
     padding-top: 40px;
 }
@@ -528,8 +540,10 @@ letter-spacing: 0%;
 }
 
 .fourt_r{
-    
+    display: flex;
+    align-items: center;
 padding-top: 29px;
+position: relative;
 }
 
 .background_2{
@@ -538,9 +552,23 @@ padding-top: 29px;
 }
 
 .left{
-    padding-bottom: 151px;
-   
+    padding-bottom: 156px;
+padding-top: 107px;
 }
+
+.right{
+    position: absolute;
+bottom: 0px;
+right: 50px;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -570,7 +598,18 @@ letter-spacing: 0%;
 .fifth_r{
     display: flex;
     background-color: rgb(255, 255, 255);
+    margin-top: 24px;
 }
+
+.Benefits_1{
+    padding-top: 76px;
+    padding-left: 72px;
+    width: 522px;
+}
+
+
+
+
 
 .gr_43{
     padding-bottom: 81px;
@@ -614,7 +653,6 @@ background-color: conic-gradient(from 180deg at 50% 50%, rgba(28, 105, 255, 0), 
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0%;
-    text-align: left;
 font-family: "Poppins", sans-serif;
 
 gap: 33px;
@@ -625,19 +663,30 @@ gap: 33px;
 }
 
 
-.seventh_r{
-    display: flex;
 
+
+
+.last_t{
+    display: flex;
+justify-content: space-around;
+padding-top: 72px;
+gap: 273px;
+padding-bottom: 58px;
 }
 
 .pic{
     padding-left: 0px;
 }
 
-.seventh_r{
-    padding-top: 72px;
-gap: 273px;
+.Email{
+    margin-top: 10px;
 }
+
+
+
+
+
+
 
 .Join{
 
@@ -666,13 +715,13 @@ margin-right: 0;
 }
 
 .send{
-margin-right: 80px;
+margin-right: 18px;
 font-size: 22px;
 font-weight: 500;
 line-height: 33px;
 letter-spacing: 0%;
     border-radius: 7px;
-    border: 1px solid blueviolet ;
+    border: 4px solid blueviolet ;
     font-family: "Poppins", sans-serif;
 background-color: blueviolet;
 box-shadow: 10px 7px 9px 0px rgba(0, 0, 0, 0.25);
@@ -684,9 +733,119 @@ padding: 17px 30px 18px 39px;
 }
 
 .the_same{
-    padding-top: 26px;
+    padding-top: 40px;
+    display: flex;
+    gap: 33px;
 }
 
 .icons{
+    display: flex;
+    gap: 21px;
     padding-top: 41px;
 }
+
+
+@media(max-width:834px)
+{
+   .container{
+    margin-left:40px;
+    margin-right: 20px;
+   }
+
+
+    ul{
+        display: none;
+    
+      }
+    
+    .menu{
+        display: block;
+    }
+    
+    .Koin{
+        width: 105px;
+
+    }
+    .text_1{
+       font-size: 48px;
+
+    }
+.child_c{
+    width: 50%;
+}
+
+.card{
+    width: 50%;
+
+}
+
+.country{
+    font-size: 40px;
+
+}
+
+.k_10_r{
+    font-size: 40px;
+}
+.middle_r{
+    width: 753px;
+}
+
+.second_r{
+    margin-top: 40px;
+}
+
+.gr_48{
+    width: 399px;
+}
+
+.text_3{
+    width: 367px;
+}
+.Finances{
+    font-size: 32px;
+}
+
+.third_r{
+    display: flex;
+    
+    gap: 20px;
+}
+
+.column-1{
+    width: 365px;
+}
+
+.Access
+{
+    width: 365px;
+  white-space: wrap;
+}
+
+.column-2{
+width: 370px;
+padding-left: 20px;
+}
+
+.left{
+    width: 463px;
+
+}
+.More{
+    font-size: 32px;
+
+}
+
+.right{
+    width: 273px;
+    padding-right: 70px;
+}
+
+
+
+
+
+
+}
+
+
