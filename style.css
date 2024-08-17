@@ -836,13 +836,89 @@ padding-left: 20px;
 
 }
 
-.right{
+
+
+.right img {
     width: 273px;
-    padding-right: 70px;
+    position: absolute;
+   bottom: 0px;
+   right: 0px;
+   padding-left: 20px;
 }
 
+.fourt_r{
+    position: relative;
+    padding-top: 56px;
+    padding-bottom: 33px;
+}
 
+.for_img > img{
+    width: 350px;
+}
+.Benefits_1{
+    width: 50%;
 
+}
+
+.gr_53{
+}
+
+.Benefits{
+width: 32px;
+}
+
+.gr_14{
+    display: none;
+}
+
+.sixth_r{
+    position: relative;
+}
+
+.st_2{
+    position: absolute;
+    bottom: 30px;
+    right: 260px;
+}
+
+.st_1{
+    position: absolute;
+    bottom: 30px;
+    left: 260px;
+}
+
+.sixth_r{
+   padding-right: 0;
+
+}
+
+.the_same{
+    flex-direction: column;
+}
+
+.pic{
+    width: 105px;
+}
+
+.last_t{
+    gap: 146px;
+}
+
+.send{
+    margin-right: 0;
+    border-radius: 7px;
+}
+
+.Email{
+border-radius: 7px;
+border: 1px;
+margin-right: 0;
+}
+
+.left{
+    padding-top: 56px;
+    padding-bottom: 33px;
+}
 
 
 
